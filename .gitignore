@@ -1,0 +1,43 @@
+# ===== Unreal Engine 5 =====
+# Pastas geradas (a Unreal recria sozinha)
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+!Build/**/*.ico
+!Build/**/*.icns
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# Compilados
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+
+# ===== Pacotes de terceiros (Fab / Megascans) =====
+# São grandes demais para o Git LFS gratuito. Não versionamos:
+# a lista do que baixar de novo fica em docs/ASSETS.md.
+Content/Fab/
+Content/Megascans/
+Content/MSPresets/
+Content/Terceiros/
+
+# Sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
